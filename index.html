@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lists</title>
+    <style>
+        ul{
+            list-style-type: square;
+            color: blue;
+        }
+        ol{
+            list-style-type: none;
+            color: cornflowerblue;
+        }
+        dl{
+            list-style-type: square;
+             color: darkcyan;
+        }
+        tr{
+            font-size: large;
+        }
+        table, td, th{
+            border: 1px solid red;
+            border-collapse:collapse ;
+            padding: 6px;
+        }
+        tfoot{
+            text-align: left;
+        }
+        .product{
+            background-color:yellow;
+            width: 300px;
+        }
+        .highlight{
+            background-color: teal;
+            width: 500px;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <ul>
+        <li>About me</li>
+        <li>cources</li>
+        <li>html</li>
+        <li>css</li>
+    </ul>
+    <ol>
+        <li>take a cup of tea</li>
+        <li>poure the tea</li>
+        <li>tasty tea</li>
+    </ol>
+    <dl>
+        <dt>html</dt>
+        <dd>hyper text markup language</dd>
+        <dt>css</dt>
+        <dd>casecading stylesheet</dd>
+    </dl>
+    <table>
+        <thead>   
+            <tr>
+                <th colspan="2"> Expences</th>
+            </tr>
+            <tr>
+                <th>Category</th>
+                <th>Amount</th>
+            </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Marketing</td>
+            <td>200%</td>
+        </tr>
+        <tr>
+            <td>Accounting</td>
+            <td>100%</td>
+        </tr>
+        <tr>
+            <td>Financing</td>
+            <td>300%</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <th>600%</th>
+            </tr>
+        </tfoot>
+ </table>
+ <div class="product">
+     <p>Lorem ipsum dolor sit amet.</p>
+   
+ </div>
+ <div class="product">
+     <p>Lorem ipsum dolor sit amet.</p>
+     
+ </div>
+ <p>
+     <span class="highlight">Lorem</span>
+      ipsum dolor, sit amet consectetur adipisicing elit. Soluta, optio.</p>
+ <article class="article">
+
+    <h1>Sunset</h1>
+    <p> Published <time datetime="21-01-01 17:00">january 1 2021 5:00pm</time></p>
+ <p>
+     <mark>Lorem </mark> ipsum dolor sit amet consectetur adipisicing elit. Explicabo sapiente dolores perferendis at unde illum earum molestias ducimus sit, debitis blanditiis sequi consectetur. Distinctio, molestias.
+    </p>
+    <figure>
+        <img src="" alt="">
+        <figcaption>My coffee this morning</figcaption>
+    </figure>
+    </article>
+    
+</body>
+</html>
